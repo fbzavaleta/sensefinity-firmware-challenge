@@ -10,14 +10,14 @@ The display flashes ‘H’ (high) at 1Hz when the temperature is 3⁰C over the
 
 The display must always indicate the profile number, except under the conditions defined above. Temperature changes are not instant, and the associated delays to reach a stationary temperature are also defined on the profile table. During this time, the system cannot trigger an alarm.
 
-![Embedded System Overview](images/picture1.jpg)
-![Temperature Sensor Connection](images/picture2.jpg)
+![Embedded System Overview](images/picture1.png)
+![Temperature Sensor Connection](images/picture2.png)
 
 The temperature sensor is 16 bits, where the value is the actual temperature divided by 10, e.g., 381 = 38.1⁰C. The value ranges from 0⁰C to 409.5⁰C, and has 2 interrupts available: the high interrupt and the low interrupt, both of which can work on the same pin (ALERT). To clear the interrupt, the 0x01 register needs to be read.
 
-![SPI Temperature Sensor](images/picture3.jpg)
-![Temperature Profiles](images/picture4.jpg)
-![Oven Control Interface](images/picture5.jpg)
+![SPI Temperature Sensor](images/picture3.png)
+![Temperature Profiles](images/picture4.png)
+![Oven Control Interface](images/picture5.png)
 
 ## 2. Questions
 
