@@ -1,4 +1,4 @@
-# Sensefinity IoT Solution for Logistic Market
+# Sensefinity IoT Firmware Challenge
 
 [Sensefinity](https://www.sensefinity.com/) is a Portuguese start-up that provides IoT solutions for the logistic market. I took on this challenge on May 24th, submitted it, and had a technical review with the engineering team. My solution was widely accepted, and I received great feedback on my event-driven approach.
 
@@ -31,7 +31,7 @@ d) Code the `display_write(uint8_t number)` function that writes a given number 
 
 e) Implement the code represented by the diagram drawn in question a). Bear in mind that in the IoT world, the main goal is power efficiency, and that the NRF52 lineup can be very power efficient if programmed correctly. So, consider having efficient routines.
 
-## 3. Overview of my Soltuion
+## 3. Overview of my Solution
 
 As you can see in the challenge description, there is a lot of background task, so for these reason i decided use a real time operational system aproach, avoiding the use of a super loop. I used the FreeRTOS, a real-time operating system kernel for embedded devices.
 
